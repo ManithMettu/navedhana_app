@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>app</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+<script src="flutter_bootstrap.js" async></script>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  const firebaseConfig = {
+    apiKey: "AIzaSyAD3sdb5YWeHOLvPYZgYupd_FbxrJVfsxI",
+    authDomain: "navedh-7cfde.firebaseapp.com",
+    projectId: "navedh-7cfde",
+    storageBucket: "navedh-7cfde.appspot.com",
+    messagingSenderId: "362273332669",
+    appId: "1:362273332669:web:e48e7a6e20f251bd6386d4"
+  };
+  const app = initializeApp(firebaseConfig);
+</script>
+</body>
+</html>

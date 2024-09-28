@@ -1,0 +1,17 @@
+{
+  "select_language":"Select Language",
+  "save" :"Save",
+  "you_can_change_language" : "You can Change Your Language",
+  "select_a_language":"Select a Language ",
+  "home":"Home",
+  "back_to_home":"Back to home",
+  "Next":"Next",
+  "Congratulations\nYou_have_successfully_logged_in" : "Congratulations\nYou have successfully logged in",
+  "Log_Out": "Log Out",
+  "Enter_your_email": "Enter your email",
+  "Enter_your_password": "Enter your password",
+  "Log_In":"Log In",
+  "or":"or",
+  "Continue_with_Google": "Continue with Google"
+
+}
